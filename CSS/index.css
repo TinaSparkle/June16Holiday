@@ -3,7 +3,7 @@ html, body {
 
 color: #003366;
 font-family: Arial;
-background-color: #b3d9ff;
+background-color: #b0e0e6;
 
 }
 
@@ -26,6 +26,15 @@ img.image_rot {
     transform: rotate(90deg);
 }
 
+/*to get rd of underline on link*/
+a:link{ text-decoration: none;
+    color:#0077BE;
+}
+
+a:visited{text-decoration: none;
+        color: #4682B4;
+}
+
 #container {
   height: 500px;
   width: 1600px;
@@ -44,12 +53,15 @@ img.image_rot {
   font-weight: bold;
   left: 20px;
   top: 10px;
+  font-family: Futura, Arial;
 }
 
-/* commenting this out for now, it's too awful!
-p{
-background-color: white;
-}
-*/
+h1.country{font-family: Futura, Arial;
+		  font-size: 4em;
+		  text-align: center;
+		  padding-top: 20px;
+		  padding-bottom: 20px;
+		  }
+
 
 
